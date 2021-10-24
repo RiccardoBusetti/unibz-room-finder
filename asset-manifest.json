@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/unibz-room-finder/static/css/main.a617e044.chunk.css",
-    "main.js": "/unibz-room-finder/static/js/main.dc504703.chunk.js",
-    "main.js.map": "/unibz-room-finder/static/js/main.dc504703.chunk.js.map",
+    "main.js": "/unibz-room-finder/static/js/main.6b9b5ecd.chunk.js",
+    "main.js.map": "/unibz-room-finder/static/js/main.6b9b5ecd.chunk.js.map",
     "runtime-main.js": "/unibz-room-finder/static/js/runtime-main.064cb42b.js",
     "runtime-main.js.map": "/unibz-room-finder/static/js/runtime-main.064cb42b.js.map",
     "static/css/2.0440f8c5.chunk.css": "/unibz-room-finder/static/css/2.0440f8c5.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.0440f8c5.chunk.css",
     "static/js/2.9aa6f04e.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.dc504703.chunk.js"
+    "static/js/main.6b9b5ecd.chunk.js"
   ]
 }
