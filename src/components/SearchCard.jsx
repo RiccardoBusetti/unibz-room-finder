@@ -58,7 +58,14 @@ export default function SearchCard() {
                 </Paper>
             </Grid>
             <Grid item xs={12} md={2}>
-                <DayPickerInput className={classes.datePicker} value={selectedDay} onDayChange={day => setSelectedDay(day)} />
+                <DayPickerInput
+                    className={classes.datePicker}
+                    value={selectedDay}
+                    onDayChange={day => {
+                        setSelectedDay(day);
+                        document.activeElement.blur();
+                    }
+                    } />
             </Grid>
         </Grid>
     );

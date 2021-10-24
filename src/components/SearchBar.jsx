@@ -70,6 +70,7 @@ export default function SearchBar({ performSearch, onSearching, isLoading }) {
                     if (event.key === 'Enter') {
                         performSearch();
                         event.preventDefault();
+                        document.activeElement.blur();
                     }
                 }}
             />

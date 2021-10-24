@@ -31,6 +31,9 @@ export default function useData() {
                         availabilities: transformAvailabilities(response.data.availabilities)
                     };
                     console.log("Availability received");
+                    console.log(response.data);
+
+                    console.log("Mapped availabilities");
                     console.log(data);
 
                     setAvailability(data);
