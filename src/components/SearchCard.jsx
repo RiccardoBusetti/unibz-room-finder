@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Grid, Paper } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import SearchBar from './SearchBar';
-import { debounce } from '../utils/functions';
 import useAppContext from '../hooks/useAppContext';
 import 'react-day-picker/lib/style.css';
 import DayPickerInput from 'react-day-picker/DayPickerInput';
@@ -17,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     datePicker: {
-        width: '100%'
+        borderRadius: 20
     }
 }));
 

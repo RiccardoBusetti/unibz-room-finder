@@ -34,7 +34,7 @@ function AvailabilityResults() {
     const classes = useStyles();
     const appData = useAppContext();
 
-    const { enqueueSnackbar, closeSnackbar } = useSnackbar();
+    const { enqueueSnackbar } = useSnackbar();
 
     if (appData.error) {
         enqueueSnackbar(appData.error, { variant: "error" });
@@ -55,7 +55,7 @@ function AvailabilityResults() {
 
     var description = "The following timeslots are available";
     if (isDayEmpty) {
-        description = "The room is empty 🤩";
+        description = "The room is empty or does not exist 🤩";
     } else if (isDayFull) {
         description = "The room is full for the day 😭";
     }
@@ -87,7 +87,8 @@ function AvailabilityResults() {
                         }
                         <Grid item xs={12}>
                             <Typography variant="subtitle2">
-                                <i>Please note that it is your responsability if you decide to go in a room without permission. I do not take any responsability in case of any problems.</i>
+                                <i>Please note that it is your responsability if you decide to go in a room without permission.
+                                    I do not take any responsability in case any problems will arise. This webpage is not affiliated with unibz and was developed just for fun.</i>
                             </Typography>
                         </Grid>
                     </Grid>

@@ -1,5 +1,5 @@
 import { CircularProgress, InputBase } from '@material-ui/core';
-import React, { useState } from 'react';
+import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { SearchRounded } from '@material-ui/icons';
 
@@ -42,8 +42,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SearchBar({ performSearch, onSearching, isLoading }) {
     const classes = useStyles();
-
-    const [room, setRoom] = useState();
 
     return (
         <div className={classes.search}>
