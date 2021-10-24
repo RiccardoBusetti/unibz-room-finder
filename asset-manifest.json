@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/unibz-room-finder/static/css/main.a617e044.chunk.css",
+    "main.js": "/unibz-room-finder/static/js/main.e4eff9df.chunk.js",
+    "main.js.map": "/unibz-room-finder/static/js/main.e4eff9df.chunk.js.map",
+    "runtime-main.js": "/unibz-room-finder/static/js/runtime-main.064cb42b.js",
+    "runtime-main.js.map": "/unibz-room-finder/static/js/runtime-main.064cb42b.js.map",
+    "static/css/2.0440f8c5.chunk.css": "/unibz-room-finder/static/css/2.0440f8c5.chunk.css",
+    "static/js/2.6cec8a6f.chunk.js": "/unibz-room-finder/static/js/2.6cec8a6f.chunk.js",
+    "static/js/2.6cec8a6f.chunk.js.map": "/unibz-room-finder/static/js/2.6cec8a6f.chunk.js.map",
+    "index.html": "/unibz-room-finder/index.html",
+    "static/css/2.0440f8c5.chunk.css.map": "/unibz-room-finder/static/css/2.0440f8c5.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/unibz-room-finder/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.6cec8a6f.chunk.js.LICENSE.txt": "/unibz-room-finder/static/js/2.6cec8a6f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.064cb42b.js",
+    "static/css/2.0440f8c5.chunk.css",
+    "static/js/2.6cec8a6f.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.e4eff9df.chunk.js"
+  ]
+}
