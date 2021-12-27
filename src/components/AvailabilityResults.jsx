@@ -87,8 +87,7 @@ function AvailabilityResults() {
                         }
                         <Grid item xs={12}>
                             <Typography variant="subtitle2">
-                                <i>Please note that it is your responsability if you decide to go in a room without permission.
-                                    I do not take any responsability in case any problems will arise. This webpage is not affiliated with unibz and was developed to help students organize themselves.</i>
+                                <i>Please note that it is your responsibility if you decide to go into a room without permission. I do not take any responsibility in case any problems will arise. This webpage is not affiliated with unibz and wants to help students organize themselves.</i>
                             </Typography>
                         </Grid>
                     </Grid>
